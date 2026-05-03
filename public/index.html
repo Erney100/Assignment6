@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Jokebook</title>
+</head>
+<body>
+
+<h1>Random Joke</h1>
+<div id="random"></div>
+
+<h2>Categories</h2>
+<button onclick="getCategories()">Load Categories</button>
+<ul id="categories"></ul>
+
+<h2>Search Category</h2>
+<input id="searchInput">
+<button onclick="searchCategory()">Search</button>
+
+<h2>Add Joke</h2>
+<input id="cat" placeholder="category">
+<input id="setup" placeholder="setup">
+<input id="delivery" placeholder="delivery">
+<button onclick="addJoke()">Add</button>
+
+<style>
+body {
+  font-family: Arial;
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+input, button {
+  margin: 5px;
+  padding: 8px;
+}
+</style>
+
+<script src="script.js"></script>
+</body>
+</html>
